@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
     "run": "ts-node ./src/server.ts",
     "start:debug": "ts-node --ignore false ./src/server.ts"
   },
